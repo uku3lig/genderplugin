@@ -1,0 +1,8 @@
+name: GenderPlugin
+version: '${version}'
+main: net.uku3lig.genderplugin.GenderPlugin
+api-version: 1.18
+authors: [ uku ]
+description: spigot wrapper for wildfire's gender mod
+depend:
+  - ProtocolLib
