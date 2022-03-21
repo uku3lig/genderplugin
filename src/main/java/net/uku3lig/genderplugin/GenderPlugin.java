@@ -50,6 +50,7 @@ public final class GenderPlugin extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        Bukkit.getLogger().info("Disabling GenderPlugin");
     }
 
     private static GenderPlayer parsePlayer(ByteBuf buf) {
